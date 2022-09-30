@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#placeImage{
+  width: 300px;
+  height: 450px;
+  padding: 50px;
+  margin-left: 100px;
+  border-radius: 80px;
+}
+#marker{
+  padding-top: 100px;
+  
+}
+.cardStyle{
+  display: flex;
+  flex-direction: row;
+  
+  align-content: inherit;
+}
+.cardContent{
+  margin-left: 50px;
+  display: flex;
+  flex-direction :column;
+ 
+
+}
+.dateClass{
+  margin-top: -25px;
+
+}
+.imageStyle{
+  display: flex;
+  
+}
+header>img{
+  align-items: center;
+}
+.imageStyle>h1{
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 75px;
+}
+.location>span{
+  letter-spacing: 0.5em;
+
+}
+.description{
+  padding-right: 500px;
+}
+hr{
+  width: 80%;
+}
+header>span{
+  margin-top: 50px;
+}
